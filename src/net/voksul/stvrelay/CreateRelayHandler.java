@@ -8,9 +8,6 @@ import java.io.OutputStreamWriter;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 
-/**
- * Created by Administrator on 11/24/2014.
- */
 public class CreateRelayHandler implements HttpHandler {
     /**
      * Handles relay creation requests.
