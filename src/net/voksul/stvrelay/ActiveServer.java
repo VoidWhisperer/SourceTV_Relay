@@ -1,8 +1,5 @@
 package net.voksul.stvrelay;
 
-/**
- * Created by Administrator on 11/24/2014.
- */
 public class ActiveServer {
     String ip;
     int port;
