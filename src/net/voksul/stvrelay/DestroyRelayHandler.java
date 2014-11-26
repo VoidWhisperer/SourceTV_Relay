@@ -7,9 +7,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Administrator on 11/24/2014.
- */
 public class DestroyRelayHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange httpExchange) throws IOException {
