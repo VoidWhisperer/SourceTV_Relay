@@ -17,7 +17,6 @@ public class CreateRelayHandler implements HttpHandler {
      */
     @Override
     public void handle(HttpExchange httpExchange) throws IOException {
-        System.out.println("Request recieved on createrelay");
         HashMap<String, String> get_keyval = httpGet(httpExchange.getRequestURI().getQuery());
         if (get_keyval.containsKey("key") && get_keyval.containsKey("ip") && get_keyval.containsKey("port")) {
             if (get_keyval.get("key").equals(Main.getConfig().get("key"))) {
