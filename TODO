@@ -1,0 +1,2 @@
+Add slf4j
+Remove system commands from create and destroy relay - move it into start/stop method of server object.
